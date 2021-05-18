@@ -14,30 +14,30 @@ Most functions return a reference to *this* to allow for method chaining.
 
 A timezone may be supplied through the constructor directly or a global *timezone* string. 
 
-###Constructors: 
+### Constructors: 
 Date.tz(timestamp, timezone)  //Creates a new date type. Timezone is set by the supplied value or globalThis.timezone if set. 
 
-##Getters/Setters:
-###.ms() 
-###.second()
-###.minute()
-###.hour()
-###.date()
-###.month()
-###.year()
+## Getters/Setters:
+### .ms() 
+### .second()
+### .minute()
+### .hour()
+### .date()
+### .month()
+### .year()
 
-##ReadOnly:
-###.day()
-###.dayOfYear()
-###.week()
+## ReadOnly:
+### .day()
+### .dayOfYear()
+### .week()
 
-##Utility functions:
-###.format(custom)  //returns a standard datetime string or custom output based on format string  
-###.add(count, unit)  //Modifies the date object by adding or subtracting the supplied values
-###.subtract(count, unit) //same as add(count * -1, unit)
-###.resetDay()  //Modifies the date object to the start of the current day
-###.getParts()  //returns an object with date part attributes
+## Utility functions:
+### .format(custom)  //returns a standard datetime string or custom output based on format string  
+### .add(count, unit)  //Modifies the date object by adding or subtracting the supplied values
+### .subtract(count, unit) //same as add(count * -1, unit)
+### .resetDay()  //Modifies the date object to the start of the current day
+### .getParts()  //returns an object with date part attributes
 
-###Date.duration([timestamp or count, timestamp or unit])  //returns an object/functions to caculate or format timespans
+### Date.duration([timestamp or count, timestamp or unit])  //returns an object/functions to caculate or format timespans
 
 See inline code documentation for more information and examples.
