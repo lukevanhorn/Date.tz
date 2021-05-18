@@ -32,12 +32,18 @@ Date.tz(timestamp, timezone)  //Creates a new date type. Timezone is set by the 
 ### .week()
 
 ## Utility functions:
-### .format(custom)  //returns a standard datetime string or custom output based on format string  
-### .add(count, unit)  //Modifies the date object by adding or subtracting the supplied values
-### .subtract(count, unit) //same as add(count * -1, unit)
-### .resetDay()  //Modifies the date object to the start of the current day
-### .getParts()  //returns an object with date part attributes
+### .format(custom)
+Returns a standard datetime string or custom output based on format string  
+### .add(count, unit)
+Modifies the date object by adding or subtracting the supplied values
+### .subtract(count, unit) 
+Same as add(count * -1, unit)
+### .resetDay()
+Modifies the date object to the start of the current day
+### .getParts()
+returns an object with date part attributes
 
-### Date.duration([timestamp or count, timestamp or unit])  //returns an object/functions to caculate or format timespans
+### Date.duration([timestamp or count, timestamp or unit])  
+Returns an object with convenience functions to calculate or format timespans
 
 See inline code documentation for more information and examples.
